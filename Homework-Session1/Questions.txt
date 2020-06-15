@@ -5,4 +5,4 @@
 +) it starts with an integer(0-9). For example, "2beeornot2bee" is an invlid name
 +) it contains spaces. For example, "two bee" is an invalid name
 +) it contains special symbols, excluding the underscore(_) or the dollar sign($). For example, twobee/ is an invalid name
-+) it is one of JavaScript's reserved words. For example, else is an invalid name
++) it is one of JavaScript's reserved words/keywords. For example, else is an invalid name
