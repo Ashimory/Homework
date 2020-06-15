@@ -1,8 +1,0 @@
-1. How to check a variable’s type?
-- Use typeof()
-2. In what cases, you will get SyntaxError from the compiler telling you that some of your variables have invalid names? Can you give 3 different examples of invalid names?
-- Your variables will be flagged as having invalid names if:
-+) it starts with an integer(0-9). For example, "2beeornot2bee" is an invlid name
-+) it contains spaces. For example, "two bee" is an invalid name
-+) it contains special symbols, excluding the underscore(_) or the dollar sign($). For example, twobee/ is an invalid name
-+) it is one of JavaScript's reserved words/keywords. For example, else is an invalid name
