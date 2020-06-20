@@ -1,0 +1,22 @@
+1. A JavaScript Boolean represents one of two values: true or false.
+Examples:
+2 == 4 (false)
+2 == 4 || 2 == 4/2 (true)
+2 > 4 && 2 == 4/2 (false)
+
+2. A flowchart is a type of diagram that represents a workflow or process.
+
+3. Nested conditionals means placing, or embedding, conditional statements (if/else/else if) inside other conditional statements.
+Example:
+let age = Number(prompt("Enter your age here:"))
+if (age < 18) {
+    alert ("You are too young to buy and consume alcohol in Vietnam and in the U.S")
+}
+else {
+    if (age < 21) {
+        alert("You are old enough to buy and consume alcohol in Vietnam, but not in the U.S")
+    }
+    else {
+        alert("You are old enough to buy and consume alcohol in Vietnam and in the U.S")
+    }
+}
