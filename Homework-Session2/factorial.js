@@ -1,5 +1,5 @@
-destination = parseInt(prompt("Enter the number you want to calculate the factorial of:"))
-result = 1
+let destination = parseInt(prompt("Enter the number you want to calculate the factorial of:"))
+let result = 1
 if (destination < 0) {
     alert("You can only calculate the factorial of a positive integer")
 }
