@@ -1,0 +1,18 @@
+1. Using functions are beneficial in multiple ways:
+- They're reusable. Once you defined a function, you can just call it whenever you want to do the same task again, rather than having to write the code again.
+- Easier to fix any potential problems/improve the code itself. Rather than having to go through multiple instances of the same code and editing all of them, you just have to edit the function itself. And if a bug happens, you know exactly where it is located
+- You (or other users) don't have to know all about ho a function works to use it. You just need to know the name of the function, its inputs and outputs, and an idea of what it does. It's not required to know HOW the function does it.
+2. A functioned is defined with the function keyword, followed by a name, followed by parentheses (). Parameters/arguments (if any) are placed inside the parentheses, separated by a comma (,). The body code (the content of the function, what it does) is limited by a pair of curly braces ({})
+3. Type the name of the function, followed by parentheses (). Include the value for any parameters inside the parentheses.
+4. Return is a common keyword in most programming languages. It has two primary purposes.
+- For functions that return a value - the return statement will be followed by the value to be returned.
+- The other purpose is termination of a function, either early termination, or at the end of the function.
+5. No. By default, all functions return undefined. If you don't need the function to return any value at the end, or for it to be terminated early, an explicit return statement is not required.
+ - An example of a JavaScript function that doesn't need return:
+    function logDouble(num) {
+        console.log(num*2);
+    }
+The only thing this function does is log to the console. We don't need to extract any value from it, so return is not needed.
+6. Function parameters are the names of values you give to the function so that it can do something using those values. Arguments are the value of parameters at the time the function is called. You add parameters to a function by placing them inside the parentheses. Whenever that function is called, include arguments inside the parentheses according to their corresponding parameter.
+7. - Import the scripts to the same html file using the <script> tag
+   - Using export and import. Example included (the 2 draft files)

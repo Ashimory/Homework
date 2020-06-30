@@ -3,7 +3,7 @@ function print(arr) {
     for (i = 0; i < arr.length; i++) {
         listedItems += `${i+1}. ${arr[i]} \n `;
     }
-    alert(`The store currently has: \n ${listedItems}`)
+    alert(`The store currently has: \n ${listedItems}`);
 };
 const itemList = ["White shirt", "Black pants"];
 var running = true
