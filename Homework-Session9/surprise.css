@@ -19,9 +19,12 @@ img {
     justify-content: flex-end;
 }
 .title {
-    font-size: 30px;
+    position: absolute;
+    font-size: 20px;
     font-weight: bold;
     text-align: right;
+    width: 20%;
+    height: 15%;
 }
 img:hover{
     transform: translateX(-200px);
