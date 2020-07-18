@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 75vh;
+    width: 30vw;
+    position: absolute;
+    transition: all 1s ease-in-out;
+    z-index: 2;
+}
+.container {
+    width: 30vw;
+    background-color: thistle;
+    transition: all 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+img:hover{
+    transform: translateX(-200px);
+}
+p {
+    width: 30%;
+    text-align: right;
+}
+img:hover + .container {
+    transform: translateX(70);
+    width: 60vw;
+}
